@@ -116,3 +116,14 @@ a{
     text-align: center;
     /* Additional styling to make it look like a badge */
 }
+.cart-total-price {
+    position: absolute;
+    top: 20px; /* Adjust based on your layout */
+    right: -10px; /* Adjust to position correctly */
+    background-color: #fff; /* Optional: change if you want a background */
+    color: #333; /* Color of the text */
+    padding: 2px 5px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size as needed */
+    border-radius: 5px; /* Optional: if you want rounded corners */
+    /* Additional styling as needed */
+}

@@ -28,48 +28,57 @@
         <a href="#">Menu</a>
         <a href="#">Career</a>
         <a href="signin.html">Sign-In</a>
-
-       <a href="shopping-cart.html" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count">0</span></a>
-
+        <div class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-count">0</span>
+            <!-- Add this line -->
+            <span class="cart-total-price">$0.00</span>
+        </div>
     </nav>
 
     <div class="blurred-background"></div>
 <h1>Menu</h1>
     <div class="menu-container">
-        <div class="menu-item">
+        <div class="menu-item" data-price="4.50">
             <a href="#">
                 <img src="coffee1.png" alt="Menu Item 1">
-            </a>            <p>Latte</p>
+            </a>
+            <p>Latte</p>
         </div>
-        <div class="menu-item">
+        <div class="menu-item" data-price="5.00">
             <a href="#">
                 <img src="coffee2.png" alt="Menu Item 2">
-            </a>            <p>Smoothie</p>
+            </a>
+            <p>Smoothie</p>
         </div>
-        <div class="menu-item">
+        <div class="menu-item" data-price="3.75">
             <a href="#">
                 <img src="coffee3.png" alt="Menu Item 3">
-            </a>            <p>Cappuccino</p>
+            </a>
+            <p>Cappuccino</p>
         </div>
     </div>
     <div class="menu-container">
-        <div class="menu-item">
+        <div class="menu-item" data-price="3.00">
             <a href="#">
                 <img src="coffee4.png" alt="Menu Item 4">
-            </a>            <p>Orange Juice</p>
+            </a>
+            <p>Orange Juice</p>
         </div>
-        <div class="menu-item">
+        <div class="menu-item" data-price="4.25">
             <a href="#">
                 <img src="coffee5.png" alt="Menu Item 5">
-            </a>            <p>Milk Tea</p>
+            </a>
+            <p>Milk Tea</p>
         </div>
-        <div class="menu-item">
+        <div class="menu-item" data-price="4.75">
             <a href="#">
                 <img src="coffee6.png" alt="Menu Item 6">
-            </a>            <p>Matcha Latte</p>
+            </a>
+            <p>Matcha Latte</p>
         </div>
-
     </div>
+
 
 
     <footer class="footer">
