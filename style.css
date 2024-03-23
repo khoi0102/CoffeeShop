@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;
+
+}
+
+
+
+h1{
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+
+
+
+}
+.footer{
+    font-size: 25px;
+    position: fixed;
+    bottom: 0;
+}
+body{
+    margin:0px
+}
+
+.list{
+    background-color:#ad8a73 ;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: #ad8a73;
+    align-items: center;
+}
+a:link{
+    text-decoration: none;
+}
+
+
+h2{
+    position: absolute;
+    top:0px;
+    left:250px
+}
+.body{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    height:1000px;
+    margin-top: 0px;
+    background-image: url("coffeback.png");
+    color:white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+a{
+    color: black;
+}

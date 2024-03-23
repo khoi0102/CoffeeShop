@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;
+}
+
+
+
+h1{
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+
+
+
+}
+.footer{
+    font-size: 25px;
+    position: fixed;
+    bottom: 0;
+}
+body{
+    margin:0px;
+
+
+}
+
+.list{
+    background-color:#ad8a73 ;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    align-items: center;
+}
+a:link{
+    text-decoration: none;
+}
+
+
+h2{
+    position: absolute;
+    top:0px;
+    left:250px
+}
+
+a{
+    color: black;
+}
+.blurred-background {
+    position: fixed; /* Use fixed to cover the entire viewport */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Sit behind the form */
+    background-image: url("coffeback.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(5px); /* Apply the blur effect */
+}
+.menu-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed for your design */
+    padding: 20px;
+    color:white;
+}
+
+.menu-item {
+    text-align: center; /* Center the text below the image */
+    color:white;
+
+}
+
+.menu-item img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border: 1px solid #ad8a73; /* Adjust the border color as needed */
+    object-fit: cover; /* This will cover the area without losing the aspect ratio */
+    transform: scale(1); /* Zoom out to 80% of the original size */
+    border-radius: 50%;
+    color:white;
+
+}
+.menu-item img {
+    transition: transform 0.3s ease; /* Smooth transition */
+    /* Other styles here */
+}
+
+.menu-item img:hover {
+    transform: scale(0.8); /* Zoom out on hover */
+}
+.cart-icon {
+    position: relative;
+}
+.cart-count {
+    position: absolute;
+    top: -10px; /* Adjust as needed */
+    right: -10px; /* Adjust as needed */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 0 5px;
+    font-size: 10px; /* Smaller font size for the count */
+    line-height: 20px; /* This ensures the text is vertically centered */
+    min-width: 20px; /* Ensures a minimum width for single digits */
+    text-align: center;
+    /* Additional styling to make it look like a badge */
+}
