@@ -38,7 +38,6 @@ body{
     display: flex;
     justify-content: space-around;
     font-size: 20px;
-    background-color: #ad8a73;
     align-items: center;
 }
 a:link{
