@@ -28,6 +28,7 @@ h3{
     font-size: 25px;
     position: fixed;
     bottom: 0;
+    color:white;
 }
 body{
     margin:0px
@@ -65,4 +66,7 @@ h2{
 }
 a{
     color: black;
+}
+.addr{
+    color: white;
 }
